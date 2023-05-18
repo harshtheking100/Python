@@ -1,0 +1,68 @@
+1. Accept two numbers from user and perform following operation:
+   Addition
+   Subtraction
+   Multiplicatioin
+   Division
+   Power(**)
+   floor Division
+   Modulus (%)
+
+-->no1= int(input("enter number"))
+   no2= int(input("enter number"))
+   print("addition = " , no1+no2)
+   print("sub = ", no1-no2)
+   print("div = ", no1/no2)
+   print("power=" ,no1**no2)
+   print("floor div =" , no1//no2)
+   print("modulus =",no1%no2)
+   
+2. Accept radius from user and calculate area and perimeter of circle.
+--> r=int(input("enter the radius")
+    area of circle = 3.14*r*r
+    print("area of the circle =", area of circle)
+3. Accept Length and bredth of rectangle and calculate area and peremeter of rectangle.
+-->l=int(input("enter the length"))
+   b=int(input("enter the breadth"))
+   area=l*b
+   print("area of rectangle =" , area)
+4. declare 4 variables(name,age,address,mobile) .
+   Accept the value for these variables from user and print all the values seperated by '-'.
+   e.g. "Ram-5-Pune-878734562"
+--> name=input("enter the name")
+    age=int(input("enter the age"))
+    add=input("enter the add")
+    mob=int(input("enter the mob number")
+    print("the variable:",name,age,add,mob,sep='')
+--------------------------------------------------
+Conditional Statement
+
+ 1. Write a program to check whether a person is eligible for voting or not. (accept age from user)
+ 2.Write a program to check whether a number is divisible by 7 or not.
+ 3. Write a program to display "Hello" if a number entered by user is a multiple of five 
+
+ 4.  Write a program to calculate the electricity bill (accept number of unit from user) according to the following criteria :
+             Unit                                                     Price  
+	First 100 units                                               no charge
+	Next 100 units                                              Rs 5 per unit
+	After 200 units                                             Rs 10 per unit
+(For example if input unit is 350 than total bill amount is Rs2000)
+
+5.Write a program to accept percentage from the user and display the grade according to the following criteria:
+
+         Marks                                    Grade
+         >90                                         A
+         > 80 and <= 90                              B
+         >= 60 and <= 80                             C
+         below 60                                    D
+6. Write a program to accept the cost price of a bike and display the road tax to be paid according to the following criteria :
+        Cost price (in Rs)                                       Tax
+        > 100000                                                  15 %
+        > 50000 and  <= 100000                                    10%
+        >= 50000                                                  5%
+		
+7.  Write a program to check whether an years is leap year or not.
+8.  Write a program to accept a number from 1 to 7 and display the name of the day like 1 for Sunday , 2 for Monday and so on.
+9. Accept three sides of a triangle and check&nbsp;whether it is an equilateral, isosceles or&nbsp;scalene triangle.</strong></p>
+   a. An equilateral triangle is a triangle in which all three sides are equal.
+   b. A scalene triangle is a triangle that has three unequal sides.
+   c. An isosceles triangle is a triangle with (at least) two equal sides.

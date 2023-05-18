@@ -1,0 +1,79 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\Shruti>python --version
+Python 3.11.3
+
+C:\Users\Shruti>python
+Python 3.11.3 (tags/v3.11.3:f3909b8, Apr  4 2023, 23:49:59) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a=9
+>>> a
+9
+>>> type(a)
+<class 'int'>
+>>> b=3
+>>> a+b
+12
+>>> a*b
+27
+>>> a//b
+3
+>>> a/b
+3.0
+>>> a,b,c=10,20,30
+>>> a
+10
+>>> b
+20
+>>> c
+30
+>>> name,age,marks="Kishori",23,78.45
+>>> name
+'Kishori'
+>>> marks
+78.45
+>>> a,*b=10,20,30
+>>> a
+10
+>>> b
+[20, 30]
+>>> name=input("Enter Name")
+Enter NameSapna
+>>> name
+'Sapna'
+>>> print("welcome",input("enter name"))
+enter nameSapna
+welcome Sapna
+>>> print(int(input("enter no1"))+int(input("Enter no2")))
+enter no15
+Enter no27
+12
+>>> a,b=10,20
+>>> a
+10
+>>> b
+20
+>>> a,b=b,a
+>>> a
+20
+>>> b
+10
+>>> age=input("enter age")
+enter age34
+>>> age
+'34'
+>>> type(age)
+<class 'str'>
+>>> age=int(input("enter age"))
+enter age36
+>>> age
+36
+>>> type(age)
+<class 'int'>
+>>>
+KeyboardInterrupt
+>>> ^Z
+
+
+C:\Users\Shruti>
