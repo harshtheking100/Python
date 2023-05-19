@@ -1,3 +1,5 @@
-str = input('Enter String: ')
+str1 = input('Enter String: ')
 
-print(str.replace('a','$'))
+print(str1.replace('a','$'))
+
+print("Akshay")
