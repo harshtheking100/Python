@@ -5,3 +5,5 @@ print(str1.replace('a','$'))
 print("Akshay")
 print("Harshal")
 print("Amit")
+
+print("Shivam")
