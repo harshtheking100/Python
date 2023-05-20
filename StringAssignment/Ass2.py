@@ -3,3 +3,4 @@
 
 //print(str[0:index] + str[index+1:])
 print("Vinayak")
+print("Akshay")
