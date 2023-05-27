@@ -1,0 +1,28 @@
+class Time:
+
+    def __init__(self,hours,minutes):
+        self.h = hours
+        self.m = minutes
+
+    def addTime(self):
+        self.h1,self.m1 = map(int,input('Enter Time for Object 1: ').split())
+        self.h2,self.m2 = map(int,input('Enter Time for Object 2: ').split())
+        self.hh = self.h1 + self.h2
+        self.mm = self.m1 + self.m2
+        while self.mm >=60:
+            self.hh = self.hh + 1
+            self.mm = self.mm - 60
+        return self.hh, self.mm
+
+    def display(self):
+        print(self.hh,self.mm)
+
+
+
+
+
+
+
+t =Time(5,6)
+t.addTime()
+t.display()
